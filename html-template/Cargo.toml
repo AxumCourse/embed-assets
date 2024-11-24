@@ -1,0 +1,18 @@
+[package]
+name = "html-template"
+version = "0.1.0"
+edition = "2021"
+authors = ["axum.rs <team@axum.rs>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/AxumCourse/embed-assets"
+homepage = "https://axum.rs"
+description = "AXUM中文网专题：AXUM嵌入静态资源"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = { version = "0.7" }
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+rust-embed = "8.5"
+askama = "0.12"
